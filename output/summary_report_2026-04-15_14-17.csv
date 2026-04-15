@@ -1,0 +1,35 @@
+# SUMMARY KPIs
+Metric,Value
+Total Revenue,"$3,065.00"
+Total Sales,15
+Avg Deal Size,$204.33
+Top Rep,Charlie
+Top Region,East
+Best Product,Widget A
+
+# REP PERFORMANCE BREAKDOWN
+,rep_name,total_revenue,total_sales,avg_deal_size,revenue_share_%,best_product
+2,Charlie,"$1,030.00",4,$257.50,33.61,Widget A
+1,Bob,$820.00,4,$205.00,26.75,Widget B
+0,Alice,$760.00,4,$190.00,24.8,Widget C
+3,Diana,$455.00,3,$151.67,14.85,Widget A
+
+# REGION x PRODUCT PIVOT
+region,Widget A,Widget B,Widget C,TOTAL
+East,$675.00,$160.00,$195.00,"$1,030.00"
+North,$250.00,$240.00,$270.00,$760.00
+South,$275.00,$440.00,$105.00,$820.00
+West,$200.00,$120.00,$135.00,$455.00
+TOTAL,"$1,400.00",$960.00,$705.00,"$3,065.00"
+
+# MONTHLY GROWTH
+,month,total_sales,total_revenue,revenue_growth_%
+0,2024-01,5,$990.00,—
+1,2024-02,5,"$1,130.00",+14.14%
+2,2024-03,5,$945.00,-16.37%
+
+# UNDERPERFORMERS
+,rep_name,total_revenue,status
+3,Diana,$455.00,⚠ Below threshold
+0,Alice,$760.00,⚠ Below threshold
+
